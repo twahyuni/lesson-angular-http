@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="ThePresidentsApp">
+  <head>
+    <meta charset="utf-8">
+    <title>The Presidents App</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/presidentsController.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <section ng-controller="PresidentsController">
+      <h1>The Presidents of the United States of America</h1>
+
+      <ul id="presidents">
+        <li ng-repeat="president in presidents">
+          <strong>{{president.name}}</strong> <em>({{president.start}} - {{president.end}})</em>
+        </li>
+      </ul>
+
+      <form class="add-president">
+        <div>
+          <label for="new-president-name">President's Name</label>
+          <input type="text" id="new-president-name" placeholder="James Monroe">
+        </div>
+
+        <div>
+          <label for="new-president-start">President's Starting Year</label>
+          <input type="text" id="new-president-start" placeholder="1817">
+        </div>
+
+        <div>
+          <label for="new-president-end">President's Ending Year</label>
+          <input type="text" id="new-president-end" placeholder="1825">
+        </div>
+
+        <div>
+          <input type="submit">
+        </div>
+      </form>
+
+    </section>
+
+  </body>
+</html>
