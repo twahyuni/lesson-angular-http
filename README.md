@@ -4,7 +4,9 @@ In this lesson we will implement an Angular frontend that can communicate with a
 
 ## Set up
 
-  1. Fork and clone
+The Web API code has been provided for you so you do not need to modify them (unless you feel like it).
+
+  1. Clone this repo to your local.
   1. **api**
     1. Go to the `api` folder
     1. Run `npm install` to install the required modules

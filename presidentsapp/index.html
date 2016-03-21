@@ -19,20 +19,20 @@
         </li>
       </ul>
 
-      <form class="add-president">
+      <form class="add-president" ng-submit='addPresident()'>
         <div>
           <label for="new-president-name">President's Name</label>
-          <input type="text" id="new-president-name" placeholder="James Monroe">
+          <input type="text" id="new-president-name" placeholder="James Monroe" ng-model='newPresident.name'>
         </div>
 
         <div>
           <label for="new-president-start">President's Starting Year</label>
-          <input type="text" id="new-president-start" placeholder="1817">
+          <input type="text" id="new-president-start" placeholder="1817" ng-model='newPresident.start'>
         </div>
 
         <div>
           <label for="new-president-end">President's Ending Year</label>
-          <input type="text" id="new-president-end" placeholder="1825">
+          <input type="text" id="new-president-end" placeholder="1825" ng-model='newPresident.end'>
         </div>
 
         <div>
