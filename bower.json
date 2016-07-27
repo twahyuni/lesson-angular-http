@@ -1,0 +1,17 @@
+{
+  "name": "lesson-angular-http",
+  "homepage": "https://github.com/twahyuni/lesson-angular-http",
+  "authors": [
+    "twahyuni <ti.wahyuni@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
